@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: lightblue;
+}
+
+header {
+    background-color: transparent;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+   justify-content: flex-start;
+}
+
+.nav-links a {
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #bb86fc;
+}
+
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+
+.logo img{
+    height:100px;
+    width: 100px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.logo img:hover{
+    transform: scale(1.7);
+}
+
+#hero {
+    text-align: flex-start;
+    padding: 4rem 1rem;
+    background: #212121;
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+}
+
+#hero p {
+    font-size: 1.2rem;
+}
+.subheading{
+    color: white;
+}
+
+section {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+
+.pfp img{
+    height:500px;
+    width: 500px;
+    float:right;
+    
+}
+
+.pfp img{
+    transition: transform 0.5s ease-in-out;
+}
+
+.pfp img:hover{
+    transform: scale(1.7);
+}
+
+
+#projects .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.about_me{
+    color: white;
+}
+
+.project {
+    background: #1f1f1f;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.project_3 {
+    background: #1f1f1f;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.contacts{
+    text-decoration: double;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #121212; 
+    padding: 10px;
+    text-align: center;
+    z-index: 1000;
+}
+
+footer p {
+    margin: 0;
+}
+
+.social_icon img{
+    justify-content: center;
+}
+
+.icon img{
+    height: 40px;
+    width: 40px;
+    border-radius: 20%;
+    margin: 0 10px;
+}
+
