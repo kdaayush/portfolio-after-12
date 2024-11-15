@@ -43,6 +43,7 @@ header {
     transform: scale(1.7);
 }
 
+
 #hero {
     text-align: flex-start;
     padding: 4rem 1rem;
@@ -56,8 +57,42 @@ header {
 #hero p {
     font-size: 1.2rem;
 }
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.heading{
+    overflow: hidden;
+    border-right: 0.15rem solid whitesmoke;
+    white-space: nowrap;
+    animation: typing 4s steps(40, end)forwards;
+}
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+
 .subheading{
     color: white;
+}
+.subheading{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 4s steps(19, end)forwards;
+}
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
 }
 
 section {
@@ -66,12 +101,6 @@ section {
     margin: 0 auto;
 }
 
-
-.hero-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
 .hero-text {
     margin-right: 20px;
