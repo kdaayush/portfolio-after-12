@@ -63,34 +63,34 @@ header {
     align-items: center;
     justify-content: space-between;
 }
-.heading{
+.heading {
     overflow: hidden;
     border-right: 0.15rem solid whitesmoke;
     white-space: nowrap;
-    animation: typing 4s steps(40, end)forwards;
+    animation: typingHeading 4s steps(40, end) forwards;
 }
-@keyframes typing{
-    from{
+
+@keyframes typingHeading {
+    from {
         width: 0;
     }
-    to{
+    to {
         width: 100%;
     }
 }
 
-.subheading{
+.subheading {
     color: white;
-}
-.subheading{
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 4s steps(19, end)forwards;
+    animation: typingSubheading 4s steps(19, end) forwards;
 }
-@keyframes typing{
-    from{
+
+@keyframes typingSubheading {
+    from {
         width: 0;
     }
-    to{
+    to {
         width: 100%;
     }
 }
